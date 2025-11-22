@@ -1,12 +1,22 @@
 {
-  "short_name": "Neghab",
   "name": "Neghab App",
+  "short_name": "Neghab",
+  "start_url": "/neghab1/",    
+  "display": "standalone",     
+  "background_color": "#ffffff", 
+  "theme_color": "#1e40af",   
+  "lang": "en",                
+  "scope": "/neghab1/",        
   "icons": [
-    { "src": "/neghab1/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/neghab1/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
-  ],
-  "start_url": "/neghab1/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#1e40af"
+    {
+      "src": "/neghab1/icons/icon-192.png",   
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/neghab1/icons/icon-512.png",   
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
