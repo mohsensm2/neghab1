@@ -3,8 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: "/neghab1/", // ⭐ بسیار مهم برای GitHub Pages
-
+  base: "/neghab1/", // 🔹 بسیار مهم برای GitHub Pages
   plugins: [
     react(),
     VitePWA({
@@ -12,7 +11,7 @@ export default defineConfig({
       manifest: {
         name: 'Neghab App',
         short_name: 'Neghab',
-        start_url: '/neghab1/', // ⭐ برای PWA نیز مسیر صحیح
+        start_url: '/neghab1/', // 🔹 مسیر صحیح برای PWA
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#1e40af',
